@@ -11,7 +11,7 @@ const options = {
   },
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOGExNTM3NGIxMDcyODlhNzZiOGFmNGZhY2FkZmNhZiIsInN1YiI6IjYwYzhkZDQ0Y2E4MzU0MDAyOTk1OTYzNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R9ZhfiS3W_OueoH1NHoOu1kVT-cuNqHgDewH7ve5MIs'
+    Authorization: 'Bearer add you token from tmdb'
   }
 }
 @Injectable({
