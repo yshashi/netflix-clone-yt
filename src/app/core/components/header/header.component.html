@@ -9,11 +9,11 @@
   <!-- Welcome User | pofile Img | Singout -->
   <div class="text-white flex items-center gap-4">
     <div class="flex items-center gap-2">
-      <a href="/"><span>Welcome <strong>Sashi</strong></span></a>
+      <a href="/"><span>Welcome <strong>{{username}}</strong></span></a>
       <img [src]="userImg" width="42" alt="user-img">
     </div>
     &nbsp; | &nbsp;
-    <a href="/">Singout</a>
+    <a (click)="auth.signOut()">Signout</a>
   </div>
 </header>
 
